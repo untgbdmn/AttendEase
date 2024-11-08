@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.form-group > label {
+    @apply text-sm font-semibold mb-1;
+}
+
+.form-group > input,
+.form-group > select {
+    @apply rounded-md h-8 py-1;
+}
